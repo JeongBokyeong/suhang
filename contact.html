@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {     
+            margin: 0;
+            padding: 0;
+            width: 100%; 
+            height: 100%;
+            overflow: hidden;
+        }
+        @font-face {
+         font-family: 'NanumSquareB';
+         src : url(NanumSquareB.ttf);
+        }
+        a:visited{
+            color: snow;
+        }
+        #logoImg  {
+            position: absolute;
+            left: 15px;
+            margin-top: 10px;
+            width: 18%;
+            height: 7%;
+            z-index: 10;
+            margin-top: 20px;
+        }
+        #logo {
+            position: fixed;
+            top: 0;
+            z-index: 4;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="./Assets/otter.png" alt="background" id="homeBg">  
+        <div id = "header">
+            <div id="logo">
+                <a href="index.html"><img src="./Assets/logo.png" alt="logo" id="logoImg"></a>
+            </div>  
+        <div id="mouse-circle"></div>
+    </div>
+</body>
+</html>
